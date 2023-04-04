@@ -123,7 +123,7 @@ try{
         
         $stm->execute();
         
-        echo "Solicitação de amizade enviada com sucesso";
+        echo "Solicitaï¿½ï¿½o de amizade enviada com sucesso";
         return true;
     }
     
@@ -148,7 +148,3 @@ catch(PDOException $e){
     echo "ConexÃ£o falhou: " . $e->getMessage();
 }
 ?>
-
-
-
-

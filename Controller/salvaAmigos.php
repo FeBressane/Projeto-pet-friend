@@ -13,11 +13,10 @@
         echo "</form>"; 
     }
     else{
-        echo "Erro no envio da solicitação de amizade";
+        echo "Erro no envio da solicitaï¿½ï¿½o de amizade";
         echo  "<form action='../View/caes.php' method='post'>";
         echo "<input type='submit' class='btn btn-light' value='Tentar novamente'>";
         echo "</form>";
     }
     
 ?>
-
